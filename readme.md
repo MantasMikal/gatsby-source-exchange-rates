@@ -10,7 +10,7 @@ Source plugin for pulling currency exchange rates into Gatsby from [Exchange Rat
 
 ## How to use
 
-```
+```javascript
 // In your gatsby-config.js
 module.exports = {
   plugins: [
@@ -28,7 +28,7 @@ module.exports = {
 
 ## Query
 
-```
+```graphql
 query MyQuery {
   allExchangeRates {
     edges {
@@ -49,7 +49,7 @@ query MyQuery {
 
 1. Get latest exchange rates between two currencies
 
-```
+```javascript
 // In your gatsby-config.js
 module.exports = {
   plugins: [
@@ -67,7 +67,7 @@ module.exports = {
 
 2. Get historical rates for a time period.
 
-```
+```javascript
 // In your gatsby-config.js
 module.exports = {
   plugins: [
@@ -87,7 +87,7 @@ module.exports = {
 
 3. Get historical rates for a time period between two currencies.
 
-```
+```javascript
 // In your gatsby-config.js
 module.exports = {
   plugins: [
