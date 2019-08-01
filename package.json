@@ -1,16 +1,20 @@
 {
   "name": "gatsby-source-exchange-rates",
-  "version": "1.0.0",
-  "description": "",
+  "author": "Mantas Mikalauskas <mikalauskas.it@gmail.com>",
+  "description": "Source plugin for pulling currency exchange rates into Gatsby from Exchange Rates API",
+  "license": "MIT",
+  "version": "1.0.1",
   "main": "gatsby-node.js",
   "scripts": {
     "build": "babel src --out-dir dist --ignore **/__tests__",
     "clean": "rm -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MantasMikal/gatsby-source-exchange-rates"
+  },
+  "homepage": "https://github.com/MantasMikal/gatsby-source-exchange-rates",
+  "keywords": ["gatsby", "gatsby-plugin", "source", "currency", "exchange", "rates"],
   "dependencies": {
     "node-fetch": "^2.6.0",
     "query-string": "^6.8.2"
